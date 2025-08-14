@@ -1,0 +1,168 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.skill-tag {
+    background-color: #473a3c;
+    padding: 12px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.portfolio-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-img:hover {
+    transform: scale(1.05);
+}
+.input-field {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-submit {
+    background-color: #1a4b7d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience-card {
+    background-color: rgba(255, 255, 255, 0.7); /* putih transparan */
+    color: #333; /* warna teks agar kontras, ganti dari white */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.experience-card:hover {
+    transform: scale(1.05);
+}
+
+/* Style Pendidikan */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.education-item {
+    position: relative;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#services {
+    padding-top: 50px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.more-info {
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    font-size: 0.75rem;
+    color: #1a4b7d;
+    font-weight: bold;
+}
+.more-info:hover {
+    text-decoration: underline;
+    color: #0d2c4a;
+}
+
+.video-container {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.mute-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.mute-button:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Tombol 1 */
+.button-pos-1 {
+  position: absolute;
+  bottom: -5745px;
+  right: 745px;
+}
+
+/* Tombol 2 */
+.button-pos-2 {
+  position: absolute;
+  bottom: -5778px;
+  right: 722px;
+}
+
+/* Tombol 3 */
+.button-pos-3 {
+  position: absolute;
+  bottom: -5810px;
+  right: 736px;
+}
+
+.icon-button {
+  background: linear-gradient(to right, #6fb1fc, #4364f7);
+  color: white;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+
+.icon-button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(to right, #4364f7, #6fb1fc);
+}
+
+
+
+/* Animasi fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Modal background transition */
+#cvModal {
+  transition: opacity 0.3s ease-in-out;
+}
