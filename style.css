@@ -113,21 +113,21 @@ body {
 /* Tombol 1 */
 .button-pos-1 {
   position: absolute;
-  bottom: -5745px;
+  bottom: -5690px;
   right: 745px;
 }
 
 /* Tombol 2 */
 .button-pos-2 {
   position: absolute;
-  bottom: -5778px;
+  bottom: -5720px;
   right: 722px;
 }
 
 /* Tombol 3 */
 .button-pos-3 {
   position: absolute;
-  bottom: -5810px;
+  bottom: -5750px;
   right: 736px;
 }
 
@@ -166,3 +166,4 @@ body {
 #cvModal {
   transition: opacity 0.3s ease-in-out;
 }
+
