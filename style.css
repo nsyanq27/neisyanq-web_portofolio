@@ -167,3 +167,19 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
+.container {
+  width: 1200px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
